@@ -17,10 +17,12 @@ const App = () => {
 
   return (
     <div className="main-container">
+      <img src="./images/logo-home.png" className="logoHome" />
+
       <input
         type="text"
         className="search"
-        placeholder="Search..."
+        placeholder="Pesquisar"
         value={query}
         onChange={(e) => setQuery(e.target.value)}
         onKeyPress={search}
